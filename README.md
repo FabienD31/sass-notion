@@ -1,8 +1,8 @@
 # sass-notion
-inclure dans le fichier package.json => script => "sass": "node-sass -w scss -o css"
+1) inclure dans le fichier package.json => script => "sass": "node-sass -w scss -o css"
 
 
-1) npm run sass
+2) npm run sass
 
 version mise en ligne : https://fabiend31.github.io/sass-notion/
 ------------------------
