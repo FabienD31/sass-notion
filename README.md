@@ -3,7 +3,7 @@
 
 2. npm run sass
 
-## version mise en ligne : https://fabiend31.github.io/sass-notion/
+## version mise en ligne : 
 
 ## Heritage :
 
