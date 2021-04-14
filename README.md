@@ -25,6 +25,7 @@ Mixin:
 -----
 nouveau fichier "_mixins.scss" 
 Déclarer une mixins: @mixin "nom" {contenu en dur ou @content}
+
 => fichier scss parent 
 @import "mixins"; 
 dans la class de notre choix @include "nom mixin" {contenu mixin si @content utilisé}
@@ -40,6 +41,7 @@ Mixin et paramettre:
   #{$prop}: $couleur;
   font-size: $taille;
 }
+
 => dans la class du fichier scss parent : 
 .conteneurX {
   @include nom(background, red, 25px);
