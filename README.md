@@ -1,4 +1,6 @@
 # sass-notion
+inclure dans le fichier package.json => script => "sass": "node-sass -w scss -o css"
+
 
 1) npm run sass
 
