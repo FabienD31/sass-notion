@@ -46,3 +46,9 @@ font-size: $taille;
 @include nom(background, red, 25px);
 }
 
+## Fonctions:
+
+@function sum($arg1, $arg2){
+  @return $arg1 + $arg2;
+}
+
