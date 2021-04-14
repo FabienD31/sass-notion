@@ -3,9 +3,6 @@
 
 2. npm run sass
 
-
-## version mise en ligne :
-
 ## Heritage :
 
 %"class parent" { contenu class }
