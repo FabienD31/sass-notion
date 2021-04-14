@@ -1,0 +1,32 @@
+// Les variables sont importées depuis notre partial :
+@import "buttons";
+@import "variables";
+
+body {
+  font-family: $font-family;
+  background: $gray;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 500px;
+  height: 300px;
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 30px;
+  padding: 2rem;
+  h1 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid $gray;
+    span {
+      color: green;
+    }
+  }
+  .text {
+    color: #333;
+  }
+}

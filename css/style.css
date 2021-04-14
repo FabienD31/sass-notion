@@ -1,0 +1,43 @@
+.btn {
+  border: 0;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  min-width: 100px;
+  background: #333;
+  color: white;
+  font-weight: 700;
+  cursor: pointer; }
+  .btn:hover {
+    opacity: 0.8; }
+  .btn-warning {
+    background: orange; }
+  .btn-primary {
+    background: blue; }
+  .btn-danger {
+    background: red; }
+  .btn-default {
+    background: #bbb; }
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: #eee;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.card {
+  width: 500px;
+  height: 300px;
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 30px;
+  padding: 2rem; }
+  .card h1 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee; }
+    .card h1 span {
+      color: green; }
+  .card .text {
+    color: #333; }
