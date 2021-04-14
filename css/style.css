@@ -1,4 +1,4 @@
-.btn {
+.btn-warning, .btn-primary, .btn-danger, .btn-default {
   border: 0;
   border-radius: 5px;
   padding: 1rem 2rem;
@@ -7,16 +7,20 @@
   color: white;
   font-weight: 700;
   cursor: pointer; }
-  .btn:hover {
+  .btn-warning:hover, .btn-primary:hover, .btn-danger:hover, .btn-default:hover {
     opacity: 0.8; }
-  .btn-warning {
-    background: orange; }
-  .btn-primary {
-    background: blue; }
-  .btn-danger {
-    background: red; }
-  .btn-default {
-    background: #bbb; }
+
+.btn-warning {
+  background: orange; }
+
+.btn-primary {
+  background: blue; }
+
+.btn-danger {
+  background: red; }
+
+.btn-default {
+  background: #bbb; }
 
 body {
   font-family: "Courier New", Courier, monospace;
@@ -27,17 +31,32 @@ body {
   align-items: center; }
 
 .card {
+  box-sizing: border-box;
   width: 500px;
-  height: 300px;
   border: 1px solid #ccc;
   background: white;
   border-radius: 30px;
   padding: 2rem; }
+  @media only screen and (max-width: 500px) {
+    .card {
+      background: red; } }
+  @media only screen and (min-width: 1000px) {
+    .card {
+      background: orange; } }
   .card h1 {
     font-size: 1.5rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid #eee; }
     .card h1 span {
       color: green; }
+      @media only screen and (max-width: 500px) {
+        .card h1 span {
+          color: red; } }
   .card .text {
     color: #333; }
+  .card ul {
+    padding-left: 0;
+    list-style: none; }
+    .card ul li {
+      display: inline-block;
+      padding: 1rem 2rem; }
