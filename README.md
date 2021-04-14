@@ -1,10 +1,11 @@
 # sass-notion
-
 1. inclure dans le fichier package.json => script => "sass": "node-sass -w scss -o css"
 
 2. npm run sass
 
+
 ## version mise en ligne :
+
 ## Heritage :
 
 %"class parent" { contenu class }
@@ -47,3 +48,4 @@ font-size: $taille;
 .conteneurX {
 @include nom(background, red, 25px);
 }
+

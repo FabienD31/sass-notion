@@ -12,7 +12,6 @@
   cursor: pointer;
 }
 
-
 .btn-warning {
   @extend %btn;
   background: orange;
@@ -29,3 +28,4 @@
   @extend %btn;
   background: #bbb;
 }
+
